@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "case_datasus"
 version = "0.0.1"
-description = "DataSUS case"
+description = "Case DataSUS"
 authors = [
   { name = "Rodrigo Barreiro" },
 ]

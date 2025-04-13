@@ -2,7 +2,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = cases-datasus
+PROJECT_NAME = case-datasus
 PYTHON_VERSION = 3.10
 PYTHON_INTERPRETER = python
 
@@ -41,10 +41,6 @@ format:
 
 
 
-## Run tests
-.PHONY: test
-test:
-	python -m pytest tests
 
 
 ## Set up Python interpreter environment

@@ -2,7 +2,7 @@
 
 ## Description
 
-DataSUS case
+Case DataSUS
 
 ## Commands
 
