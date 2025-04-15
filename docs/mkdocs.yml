@@ -1,4 +1,40 @@
-site_name: case-datasus
+site_name: Case DataSUS
 # 
 site_author: Rodrigo Barreiro
 # 
+theme:
+  name: material
+  palette: 
+    primary: black
+    accent: deep_purple
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  language: en
+  logo: assets/images/logo-datasus.png
+  icon:
+    repo: fontawesome/brands/git-alt
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+
+
+
+repo_url: https://github.com/barreiro-r/case-datasus
+repo_name: barreiro-r/case-datasus
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/barreiro-r/case-datasus
+      
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rodrigoasbarreiro
+      name: in/rodrigoasbarreiro
