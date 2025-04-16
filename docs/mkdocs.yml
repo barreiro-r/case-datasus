@@ -42,7 +42,6 @@ extra:
 
 puglins:
   - social:
+    cards_layout: default/accent
     cards_layout_options:
       font-family: Ubuntu
-      title: Case DataSUS
-      description: DataSUS Case
