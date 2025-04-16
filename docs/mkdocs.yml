@@ -1,7 +1,23 @@
 site_name: Case DataSUS
-# 
 site_author: Rodrigo Barreiro
-# 
+site_url: https://barreiro-r.github.io/case-datasus
+repo_url: https://github.com/barreiro-r/case-datasus
+repo_name: barreiro-r/case-datasus
+
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
 theme:
   name: material
   palette: 
@@ -13,22 +29,7 @@ theme:
   language: en
   logo: assets/images/logo-datasus.png
   icon:
-    repo: fontawesome/brands/git-alt
-
-markdown_extensions:
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - tables
-
-
-
-repo_url: https://github.com/barreiro-r/case-datasus
-repo_name: barreiro-r/case-datasus
+    repo: fontawesome/brands/git-alt  
 
 extra:
   social:
@@ -38,3 +39,10 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/rodrigoasbarreiro
       name: in/rodrigoasbarreiro
+
+puglins:
+  - social:
+    cards_layout_options:
+      font-family: Ubuntu
+      title: Case DataSUS
+      description: DataSUS Case
