@@ -1,4 +1,4 @@
-ETL Procees
+ETL Process
 ==============
 
 Here is the descrition of extraction, transforming and load the data.
