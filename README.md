@@ -14,4 +14,6 @@ This project explores chemotherapy-related healthcare data from Brazil’s DataS
 
 ### Read the Docs
 
+[![Case DataSUS social preview](social.png)](https://barreiro-r.github.io/case-datasus)
+
 Check out the [full documentation](https://barreiro-r.github.io/case-datasus) for data sources, methodology, and dashboard walkthrough.
