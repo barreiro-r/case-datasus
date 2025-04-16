@@ -1,61 +1,17 @@
-# case-datasus
+# Case DataSUS
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Case DataSUS
+This project explores chemotherapy-related healthcare data from Brazil’s DataSUS system, focusing on patterns of treatment, patient demographics, and healthcare service utilization. The analysis was conducted using Python for data wrangling and preprocessing, and Tableau for interactive visualization.
 
-## Project Organization
+### Key highlights:
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         case_datasus and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── case_datasus   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes case_datasus a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
-```
+- Cleaned and structured APAC (Ambulatory Care Authorization) data with a focus on oncology.
+- Generated insights on treatment frequency, cost, and patient distribution.
+- Built a Tableau dashboard for intuitive exploration of chemotherapy data across time and regions.
 
---------
+### Read the Docs
 
+Check out the [full documentation](https://barreiro-r.github.io/case-datasus) for data sources, methodology, and dashboard walkthrough.
