@@ -1,19 +1,19 @@
-Dashboard APAC Chemotherapy
-===========================
+Dashboard APAC Drugs
+===================
 
-Utilizing the 2022 APAC Chemotherapy dataset, a Tableau dashboard was developed to enhance data comprehension and insights.
+Utilizing the 2022 APAC Drugs dataset, a Tableau dashboard was developed to enhance data comprehension and insights.
 
 !!! note ""
 
     Please click in the **:material-magnify-expand: Full Screen** view for better experience.
 
 
-<div class="tableauPlaceholder" id="viz1744758043502" style="position: relative">
+<div class="tableauPlaceholder" id="viz1744854903613" style="position: relative">
   <noscript>
     <a href="#">
       <img
-        alt="DataSUS "
-        src="https://public.tableau.com/static/images/Da/DataSUS-Quimioterapia2022/DataSUS/1_rss.png"
+        alt="Dashboard "
+        src="https://public.tableau.com/static/images/Da/DataSUSAPACMedicamentos2022/Dashboard/1_rss.png"
         style="border: none"
       />
     </a>
@@ -22,10 +22,10 @@ Utilizing the 2022 APAC Chemotherapy dataset, a Tableau dashboard was developed 
     <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
     <param name="embed_code_version" value="3" />
     <param name="site_root" value="" />
-    <param name="name" value="DataSUS-Quimioterapia2022/DataSUS" />
+    <param name="name" value="DataSUSAPACMedicamentos2022/Dashboard" />
     <param name="tabs" value="no" />
     <param name="toolbar" value="yes" />
-    <param name="static_image" value="https://public.tableau.com/static/images/Da/DataSUS-Quimioterapia2022/DataSUS/1.png" />
+    <param name="static_image" value="https://public.tableau.com/static/images/Da/DataSUSAPACMedicamentos2022/Dashboard/1.png" />
     <param name="animate_transition" value="yes" />
     <param name="display_static_image" value="yes" />
     <param name="display_spinner" value="yes" />
@@ -35,12 +35,11 @@ Utilizing the 2022 APAC Chemotherapy dataset, a Tableau dashboard was developed 
   </object>
 </div>
 <script type="text/javascript">
-  var divElement = document.getElementById("viz1744758043502");
+  var divElement = document.getElementById("viz1744854903613");
   var vizElement = divElement.getElementsByTagName("object")[0];
   vizElement.style.width = "800px";
   vizElement.style.height = "1200px";
   vizElement.style.maxHeight = "1200px";
-  vizElement.style.height = (divElement.offsetWidth * 0.75) + "px";
   var scriptElement = document.createElement("script");
   scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
   vizElement.parentNode.insertBefore(scriptElement, vizElement);

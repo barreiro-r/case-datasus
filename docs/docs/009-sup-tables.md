@@ -177,3 +177,60 @@ Some of table used in this case were created getting data manually.
     | 66           | Óbito da mãe/puérpera e alta do recém-nascido                                     |
     | 67           | Óbito da mãe/puérpera e permanência do recém-nascido                              |
 
+
+## APAC Drugs
+
+=== "Clean names"
+
+    | original_name | description | new_name |
+    |---------------|-------------|----------|
+    | AP_MVM | Data de Processamento / Movimento (AAAAMM) | data_movimento |
+    | AP_CONDIC | Sigla do Tipo de Gestão na qual Estado ou Município está habilitado | tipo_gestao |
+    | AP_GESTAO | Código da Unidade de Federação + Código do Município de Gestão, ou UF0000 se o estabelecimento está sob Gestão Estadual | codigo_gestao |
+    | AP_CODUNI | Código do Estabelecimento no CNES (Cadastro Nacional de Estabelecimentos de Saúde) | codigo_estabelecimento |
+    | AP_AUTORIZ | Número da APAC. Lei de formação: UFAATsssssssd | numero_apac |
+    | AP_CMP | Data de Atendimento ao paciente / Competência (AAAAMM) | data_competencia |
+    | AP_PRIPAL | Procedimento Principal da APAC | procedimento_principal |
+    | AP_VL_AP | Valor Total da APAC Aprovado | valor_total_apac |
+    | AP_UFMUN | Código da Unidade da Federação + Código do Município do Estabelecimento | codigo_uf_municipio |
+    | AP_TPUPS | Tipo de Estabelecimento | tipo_estabelecimento |
+    | AP_TIPPRE | Tipo de Prestador | tipo_prestador |
+    | AP_MN_IND | Estabelecimento Mantido / Individual | tipo_manutencao |
+    | AP_CNPJCPF | CNPJ do Estabelecimento executante | cnpj_estabelecimento |
+    | AP_CNPJMNT | CNPJ Mantenedora | cnpj_mantenedora |
+    | AP_CNSPCN | Número do CNS (Cartão Nacional de Saúde) do paciente | cns_paciente |
+    | AP_COIDADE | Código da Idade do paciente | codigo_idade |
+    | AP_NUIDADE | Número da Idade | idade |
+    | AP_SEXO | Sexo do paciente | sexo |
+    | AP_RACACOR | Raça/Cor do paciente | raca_cor |
+    | AP_MUNPCN | Código UF + Município de Residência do paciente | codigo_municipio_paciente |
+    | AP_UFNACIO | Código da Nacionalidade do paciente | codigo_nacionalidade |
+    | AP_CEPPCN | CEP do paciente | cep_paciente |
+    | AP_UFDIF | UF de residência diferente da UF do estabelecimento | uf_residencia_diferente |
+    | AP_MNDIF | Município de residência diferente do do estabelecimento | municipio_residencia_diferente |
+    | AP_DTINIC | Data de INÍCIO validade | data_inicio |
+    | AP_DTFIM | Data de FIM validade | data_fim |
+    | AP_TPATEN | Tipo de Atendimento de APAC | tipo_atendimento |
+    | AP_TPAPAC | Tipo da APAC (1-inicial, 2-continuidade, 3-única) | tipo_apac |
+    | AP_MOTSAI | Motivo de Saída e Permanência | motivo_saida_permanencia |
+    | AP_OBITO | Indicador de Óbito | indicador_obito |
+    | AP_ENCERR | Indicador de Encerramento | indicador_encerramento |
+    | AP_PERMAN | Indicador de Permanência | indicador_permanencia |
+    | AP_ALTA | Indicador de Alta | indicador_alta |
+    | AP_TRANSF | Indicador de Transferência | indicador_transferencia |
+    | AP_DTOCOR | Data de Ocorrência que substitui a data de FIM | data_ocorrencia |
+    | AP_CODEMI | Código do Órgão emissor | codigo_orgao_emissor |
+    | AP_CATEND | Caráter do Atendimento | carater_atendimento |
+    | AP_APACANT | Número APAC Anterior | numero_apac_anterior |
+    | AP_UNISOL | Código do Estabelecimento solicitante no CNES | codigo_estabelecimento_solicitante |
+    | AP_DTSOLIC | Data da Solicitação | data_solicitacao |
+    | AP_DTAUT | Data da Autorização | data_autorizacao |
+    | AP_CIDCAS | CID Causas Associadas | cid_causas_associadas |
+    | AP_CIDPRI | CID Principal | cid_principal |
+    | AP_CIDSEC | CID Secundário | cid_secundario |
+    | AP_ETNIA | Etnia do paciente | etnia |
+    | AM_PESO | Peso do paciente em kg | peso |
+    | AM_ALTURA | Altura do paciente em cm | altura |
+    | AM_TRANSPL | Indicador se o paciente fez transplante | indicador_transplante |
+    | AM_QTDTRAN | Quantidade de Transplantes | quantidade_transplantes |
+    | AM_GESTANT | Indicador de Gestante (S = Sim, N = Não) | indicador_gestante |
