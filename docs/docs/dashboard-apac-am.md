@@ -1,7 +1,7 @@
-Dashboard APAC Drugs
-===================
+Dashboard APAC-AM: Medications
+========================
 
-Utilizing the 2022 APAC Drugs dataset, a Tableau dashboard was developed to enhance data comprehension and insights.
+Utilizing the 2022 APAC Medications dataset, a Tableau dashboard was developed to enhance data comprehension and insights.
 
 !!! note ""
 

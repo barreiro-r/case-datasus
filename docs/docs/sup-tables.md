@@ -3,7 +3,7 @@ Supplementary Tables
 
 Some of table used in this case were created getting data manually.
 
-## APAC - Quimioterapia
+## APAC-AQ: Quimioterapia
 
 === "Clean names"
 
@@ -178,7 +178,7 @@ Some of table used in this case were created getting data manually.
     | 67           | Óbito da mãe/puérpera e permanência do recém-nascido                              |
 
 
-## APAC Drugs
+## APAC-AM: Medication
 
 === "Clean names"
 
@@ -235,7 +235,7 @@ Some of table used in this case were created getting data manually.
     | AM_QTDTRAN | Quantidade de Transplantes | quantidade_transplantes |
     | AM_GESTANT | Indicador de Gestante (S = Sim, N = Não) | indicador_gestante |
 
-=== Immunotherapy Drugs
+=== "Immunotherapy Drugs"
 
     | immunotherapy_drugs |
     | --- |

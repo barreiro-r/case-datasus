@@ -33,6 +33,8 @@ theme:
   logo: assets/images/logo-datasus.png
   icon:
     repo: fontawesome/brands/git-alt  
+  features:
+    - navigation.sections
 
 extra:
   social:
@@ -45,4 +47,21 @@ extra:
 
 plugins:
   - social
+
+
+nav:
+  - index.md 
+  - About DataSUS: about-datasus.md
+  - ETL process: etl-process.md
+  - Dashboards:
+    - APAQ-AQ: dashboard-apac-aq.md
+    - APAQ-AM: dashboard-apac-am.md
+  - Analysis:
+    - HER-2: analysis-her2.md
+    - Antipsychotics: analysis-antipsychotics.md
+    - Immunotherapy: analysis-immunotherapy.md
+  - Additional info:
+    - Supplementary Tables: sup-tables.md
+    - Limitations and Considerations: limitations-considerations.md
+    - Git Project Organization: project-organization.md
       

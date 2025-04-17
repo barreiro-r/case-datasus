@@ -1,4 +1,4 @@
-GitHub Project organization
+GitHub Project Organization
 ==========================
 
 Project Organization follows [Cookiecutter Data Science](https://github.com/drivendataorg/cookiecutter-data-science) principles (but not by the book).
