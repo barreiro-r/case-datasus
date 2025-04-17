@@ -234,3 +234,52 @@ Some of table used in this case were created getting data manually.
     | AM_TRANSPL | Indicador se o paciente fez transplante | indicador_transplante |
     | AM_QTDTRAN | Quantidade de Transplantes | quantidade_transplantes |
     | AM_GESTANT | Indicador de Gestante (S = Sim, N = Não) | indicador_gestante |
+
+=== Immunotherapy Drugs
+
+    | immunotherapy_drugs |
+    | --- |
+    | Adalimumabe |
+    | Alentuzumabe |
+    | Atezolizumabe |
+    | Avelumabe |
+    | Bevacizumabe |
+    | Cetuximabe |
+    | Denosumabe |
+    | Durvalumabe |
+    | Dupilumabe |
+    | Infliximabe |
+    | Ipilimumabe |
+    | Nivolumabe |
+    | Ocrelizumabe |
+    | Omalizumabe |
+    | Palivizumabe |
+    | Pembrolizumabe |
+    | Rituximabe |
+    | Secukinumabe |
+    | Tocilizumabe |
+    | Trastuzumabe |
+    | Ustekinumabe |
+    | Vedolizumabe |
+    | Acalabrutinibe |
+    | Afatinibe |
+    | Axitinibe |
+    | Baricitinibe |
+    | Bosutinibe |
+    | Cabozantinibe |
+    | Crizotinibe |
+    | Dasatinibe |
+    | Erlotinibe |
+    | Gefitinibe |
+    | Imatinibe |
+    | Lapatinibe |
+    | Nilotinibe |
+    | Osimertinibe |
+    | Pazopanibe |
+    | Ponatinibe |
+    | Ruxolitinibe |
+    | Sorafenibe |
+    | Sunitinibe |
+    | Tofacitinibe |
+    | Trametinibe |
+    | Upadacitinibe |
