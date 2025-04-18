@@ -4,8 +4,6 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-### Read the Docs
-
 [![Case DataSUS social preview](social.png)](https://barreiro-r.github.io/case-datasus)
 
 > [!NOTE]
@@ -21,12 +19,12 @@ These were integrated with external sources such as SIGTAP procedure tables, CID
 
 -  **Antipsychotic & Immunotherapy Use.** Mapped the use of specific high-cost drugs across mental health and immunological treatments using APAC-AM, grouped by diagnosis and procedure codes from SIGTAP.
 
--  **HER2+ Breast Cancer Treatment.** Tracked chemotherapy procedures related to HER2-targeted therapies using APAC-AQ, focusing on treatment access and coding consistency in oncology.
+-  **HER2+ Breast Cancer Treatment.** Tracked chemotherapy procedures related to HER2-targeted therapies using APAC-AQ.
 
 -  **Hospital Mortality Patterns.** Applied Kaplan–Meier survival analysis on SIH-AIH-RD data to examine sex-based differences in mortality across selected conditions.
 
 -  **Interactive Dashboards.** Developed two Tableau dashboards (one for APAC-AQ, one for APAC-AM) to support exploratory navigation by treatment type, region, and procedure group.
 
--  **Documentation & Structure.** Organized using a Cookiecutter Data Science–inspired layout. Includes data dictionaries, supplementary tables, and clear ETL notebooks to promote reproducibility and collaboration.
+-  **Documentation & Structure.** Organized using a Cookiecutter Data Science–inspired layout and beautiful mkdocs material documentation. Added data dictionaries, supplementary tables, and clear ETL notebooks.
 
 

@@ -21,4 +21,4 @@ These were integrated with external sources such as SIGTAP procedure tables, CID
 
 - [x] **Interactive Dashboards.** Developed two Tableau dashboards (one for APAC-AQ, one for APAC-AM) to support exploratory navigation by treatment type, region, and procedure group.
 
-- [x] **Documentation & Structure.** Organized using a Cookiecutter Data Science–inspired layout. Includes data dictionaries, supplementary tables, and clear ETL notebooks to promote reproducibility and collaboration.
+- [x] **Documentation & Structure.** Organized using a Cookiecutter Data Science–inspired layout and beautiful mkdocs material documentation. Added data dictionaries, supplementary tables, and clear ETL notebooks.
