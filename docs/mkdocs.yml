@@ -60,6 +60,7 @@ nav:
     - HER-2: analysis-her2.md
     - Antipsychotics: analysis-antipsychotics.md
     - Immunotherapy: analysis-immunotherapy.md
+    - Surival Analysis: analysis-survival.md
   - Additional info:
     - Supplementary Tables: sup-tables.md
     - Limitations and Considerations: limitations-considerations.md

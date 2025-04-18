@@ -1,18 +1,26 @@
 Mapping antipsychotic opportunity in APACs
 =============================================
 
-The main focus of this notebook is to map the antipsychotic opportunity in APACs.
+!!! note ""
 
-## Objectives
+    [:octicons-repo-24:  View code on notebook](https://github.com/barreiro-r/case-datasus/blob/main/notebooks/006-rb-antipsychotic-oportunity.ipynb)
+
+Antipsychotic drugs are essential medications in the treatment of severe mental health conditions such as schizophrenia and bipolar disorder. These medications act on neurotransmitter systems—primarily dopamine and serotonin pathways—to help manage symptoms like delusions, hallucinations, and mood instability. They are commonly prescribed in both acute and long-term care settings and are a key component of mental health services provided by the Brazilian Unified Health System (SUS).
+
+## :octicons-database-24: Data 
+
+The data used in this analysis is sourced from the SIA: APAC-AM (Medications).
+
+## :octicons-project-roadmap-24: Objectives
 
 1. Identify CIDs related to schizophrenia or bipolar disorders in APAC-AM.
 2. Identify which medications are being used (procedures).
 3. Create metrics for:
     - Total number of APACs
-    - Total number of patiencs (CNS)
+    - Total number of patiencs (CNS number)
     - Total value of APACs.
 
-## Results
+## :octicons-beaker-24: Results
 
 The analysis identified three CIDs associated with schizophrenia or bipolar disorders:
 
@@ -74,3 +82,9 @@ Calculated the proposed metrics for each medication:
 
 
 It is notable that of the **4,005,733** APACs, **3,403,706** (85.01%) had a value of zero.
+
+## :octicons-comment-discussion-24: Brief Discussion
+
+In the APAC records with associated costs, bipolar disorder and schizophrenia together account for 89,101 patients, making them the second most frequent condition after chronic kidney disease. However, as observed in many APAC records, a large portion of authorizations for these conditions have a recorded value of zero. This may be due to decentralized funding (e.g., through state or municipal budgets rather than federal SUS resources) or due to the billing structure of continuous treatments, where only the initial or principal APAC carries the full treatment cost while subsequent ones are recorded with zero value (an issue that warrants further investigation).
+
+A total of six antipsychotic medications were identified for the treatment of bipolar disorder and schizophrenia in the dataset: quetiapina, olanzapina, risperidona, clozapina, ziprasidona, and lamotrigina. Across all APAC records, 464,034 patients received treatment through SUS, generating a total recorded expenditure of R$ 3,989,099.37. These figures highlight both the scale of demand for mental health treatments and the limitations in cost transparency within the current reporting framework.

@@ -3,7 +3,7 @@ Supplementary Tables
 
 Some of table used in this case were created getting data manually.
 
-## APAC-AQ: Quimioterapia
+## APAC-AQ: Chemotherapy
 
 === "Clean names"
 
@@ -239,7 +239,6 @@ Some of table used in this case were created getting data manually.
 
     | immunotherapy_drugs |
     | --- |
-    | Adalimumabe |
     | Alentuzumabe |
     | Atezolizumabe |
     | Avelumabe |
@@ -283,3 +282,8 @@ Some of table used in this case were created getting data manually.
     | Tofacitinibe |
     | Trametinibe |
     | Upadacitinibe |
+    | Mepolizumabe |
+    | Adalimumabe |
+    | Secuquinumabe |
+    | Ustequinumabe |
+    | Risanquizumabe |
