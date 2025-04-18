@@ -89,7 +89,7 @@ CID with most disparate mortality rates between males and females:
 
 This analysis employed Kaplan–Meier survival estimates to explore differences in mortality associated with selected diseases using data from the AIH-RD database.
 
-To ensure comparability between sexes, gender-specific conditions—such as breast and prostate cancer—were excluded from the analysis.
+To ensure comparability between sexes, gender-specific conditions,such as breast and prostate cancer,were excluded from the analysis.
 
 While several diseases demonstrated differing mortality rates between male and female patients, the absolute differences in survival probabilities were relatively modest. It is important to note that the interpretation of these differences may be influenced by potential confounding factors. In particular, the absence of age adjustment introduces a possible survival bias, especially in the female cohort, where longer life expectancy could affect observed survival patterns.
 
