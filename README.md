@@ -8,9 +8,8 @@
 
 [![Case DataSUS social preview](social.png)](https://barreiro-r.github.io/case-datasus)
 
-!!! note 
-
-    Check out the [full documentation](https://barreiro-r.github.io/case-datasus) for data sources, methodology, analysis and dashboard walkthrough.
+> [!NOTE]
+> Check out the [full documentation](https://barreiro-r.github.io/case-datasus) for data sources, methodology, analysis and dashboard walkthrough.
 
 In this project, I explore patterns of access, cost, and clinical care across Brazil’s public health system using official data from DATASUS. The analysis focuses on high-complexity outpatient and inpatient treatments, including chemotherapy, immunotherapy, mental health medications, and hospital mortality.
 
