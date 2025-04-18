@@ -8,7 +8,7 @@
 
 [![Case DataSUS social preview](social.png)](https://barreiro-r.github.io/case-datasus)
 
-!!! note ""
+!!! note 
 
     Check out the [full documentation](https://barreiro-r.github.io/case-datasus) for data sources, methodology, analysis and dashboard walkthrough.
 
